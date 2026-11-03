@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Internship Form</title>
+</head>
+<body>
+<h2>Internship Application Form</h2>
+<form>
+<label for="name">Full Name:</label>
+<input type="text" id="name" name="name" placeholder="Name" required><br><br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="Email" required><br><br>
+<label for="phone">Phone:</label>
+<input type="tel" id="phone" name="phone" placeholder="Phone" required><br><br>
+<label for="dob">DOB:</label>
+<input type="date" id="dob" name="dob" required><br><br>
+<label for="pass">Password:</label>
+<input type="password" id="pass" name="password" required><br><br>
+Gender:
+<input type="radio" id="male" name="gender" value="Male">
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="Female">
+<label for="female">Female</label>
+<input type="radio" id="other" name="gender" value="Other">
+<label for="other">Other</label><br><br>
+<label for="course">Course:</label>
+<select id="course" name="course">
+    <option>CSE</option>
+    <option>IT</option>
+    <option>ECE</option>
+    <option>Mechanical</option>
+</select><br><br>
+Skills:
+<input type="checkbox" name="skill" value="Java">Java
+<input type="checkbox" name="skill" value="JavaScript">JavaScript
+<input type="checkbox" name="skill" value="HTML">HTML
+<input type="checkbox" name="skill" value="CSS">CSS
+<input type="checkbox" name="skill" value="React">React<br><br>
+Internship:
+<input type="radio" id="online" name="preference" value="Online">
+<label for="online">Online</label>
+<input type="radio" id="offline" name="preference" value="Offline">
+<label for="offline">Offline</label><br><br>
+<label for="resume">Resume:</label>
+<input type="file" id="resume" name="resume"><br><br>
+<label for="cover">Cover Letter:</label><br>
+<textarea id="cover" name="cover" placeholder="Write here"></textarea><br><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+</body>
+</html>

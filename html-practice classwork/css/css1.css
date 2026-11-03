@@ -1,0 +1,35 @@
+p{
+    background-color: darkblue;
+    color:blueviolet;
+    font-size: 22px;
+}
+div h4{
+    background-color: blue;
+}
+button{
+    background-color: red    ;
+}
+span{
+    background-color: green;
+}
+a{
+    background-color: yellow;
+}
+h4{
+    background-color: blue;
+
+}
+#heading1{
+    background-color: darkseagreen;
+}
+.c1{
+    background-color: darkorange;
+}
+.box{
+    background-color: rgb(50, 195, 6);
+    border: 2px solid black;
+    padding: 140px;
+    margin: 110px;
+    width: 200px;
+    height: 200px;
+}
